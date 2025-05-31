@@ -1,4 +1,4 @@
-FROM kasmtech/firefox:1.17.0-rolling-daily
+FROM kasmweb/firefox:1.16.0-rolling-daily
 USER root
 RUN apt-get update
 RUN apt-get install -y --no-install-recommends libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev \
